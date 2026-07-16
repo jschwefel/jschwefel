@@ -15,7 +15,7 @@ families. One is the shared ground they all stand on. The last is the
 bench everything else sits at.
 
 ### [TestingAutoPilot](https://github.com/TestingAutoPilot)
-**Declarative GUI testing that runs the same plan on every platform.**
+**Declarative GUI testing and demo creator that runs the same plan on every platform.**
 
 AutoPilot describes a UI test as data — a JSON plan — instead of code,
 then runs that same plan against a native macOS app, an iPhone, an
@@ -36,7 +36,7 @@ options instead of one opinionated path. The org also holds the
 plugins that drive real applications from the deck.
 
 ### [CameraConductor](https://github.com/CameraConductor)
-**One daemon, many cameras.**
+**One daemon, many cameras, lights and meters.**
 
 `conductord` controls multiple tethered cameras over USB/PTP and
 exposes them through a WebSocket API and an accessible web UI.
@@ -46,7 +46,7 @@ are almost always one camera, one vendor, one GUI — and reachable by
 neither a screen reader nor a script.
 
 ### [CommonPractices](https://github.com/CommonPractices)
-**The shared ground every product here is built on.**
+**The shared contracts and doctrine (most) products here are built on.**
 
 Independent programs interoperate because they conform to the same
 practices, not because they share code. This org holds the three
