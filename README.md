@@ -34,16 +34,24 @@ first, ease of use for the common flow with the depth kept behind an
 Advanced unlock, speed, and choice — a prosumer tool that hands you
 options instead of one opinionated path. The org also holds the
 plugins that drive real applications from the deck.
+### [StudioEnsemble](https://github.com/StudioEnsemble)
+**Accessible, open control for every instrument in the studio.**
 
-### [CameraConductor](https://github.com/CameraConductor)
-**One daemon, many cameras, lights and meters.**
+A family of open control surfaces for the tools of a production —
+cameras (`conductord`), lights (LiteController), a light meter next,
+audio and more to come. Each has its own control plane and stands on
+its own: a WebSocket API and a screen-reader-first web UI, brand-generic
+and scriptable, first-class on macOS, Linux, and Raspberry Pi. One more
+surface speaks every product's control plane through that same shared
+interface, conducting them as a single ensemble rather than a drawer of
+separate apps.
 
-`conductord` controls multiple tethered cameras over USB/PTP and
-exposes them through a WebSocket API and an accessible web UI.
-Brand-generic by design, Nikon-first in practice; macOS, Linux, and
-Raspberry Pi are all first-class. It exists because tethering tools
-are almost always one camera, one vendor, one GUI — and reachable by
-neither a screen reader nor a script.
+A simple way in for the individual just getting into photography or
+video, an open API for the hacker who just wants to control and
+automate, one console for the small studio, and a full ensemble for the
+growing production.
+
+_Work in progress — each piece goes public as it reaches beta._
 
 ### [CommonPractices](https://github.com/CommonPractices)
 **The shared contracts and doctrine (most) products here are built on.**
