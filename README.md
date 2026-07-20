@@ -64,6 +64,20 @@ kind of thing), and `CommonTongue` (the contracts — the versioned
 schema and the per-language packages that realize it). The first two
 you read. The third you depend on.
 
+### [SurfaceWorks](https://github.com/SurfaceWorks)
+**The accessible interface layer the products wear.**
+
+A product here ships no UI of its own — it publishes a self-describing
+control surface, and SurfaceWorks turns that description into a live,
+screen-reader-first interface, generically, with no product-specific
+code. It holds `Lucidity` (the reference renderer), `Palette` (the
+catalogue of control widgets a renderer draws), and `Codex` (the
+cross-vendor vocabulary of what a control *means*). The vocabularies
+are recommended and grow by pull request — align to them for interop,
+or roll your own and still render.
+
+_Work in progress — the CommonTongue contract it renders is being finalized._
+
 ### [jschwefel-workshop](https://github.com/jschwefel-workshop)
 **The bench: the one-offs that aren't part of a family.**
 
